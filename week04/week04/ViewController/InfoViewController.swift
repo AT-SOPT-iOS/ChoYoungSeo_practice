@@ -8,7 +8,7 @@ final class InfoViewController: UIViewController {
     // MARK: - Properties
 
     private var keyword: String = ""
-    private let userId: Int = 1 // 실제 로그인된 사용자 ID로 교체 필요
+    private let userId: Int = 1 
 
     // MARK: - Lifecycle
 
@@ -19,12 +19,11 @@ final class InfoViewController: UIViewController {
     }
 
     // MARK: - Actions
-
     
      @objc private func searchButtonTap() {
         Task {
             do {
-                let nicknameList = try await GetInfoService.shared.fetchNicknameList(
+                let nicknameList = try await UserService.shared.fetchNicknameList(
                     keyword: self.keyword.isEmpty ? nil : self.keyword
                 )
 
@@ -68,9 +67,10 @@ final class InfoViewController: UIViewController {
 
     private lazy var keywordTextField = UITextField().then {
         $0.addTarget(self, action: #selector(textFieldDidEditing(_:)), for: .editingChanged)
-        $0.backgroundColor = .lightGray
-        $0.placeholder = "검색할 닉네임 키워드를 입력하세요"
-        $0.layer.cornerRadius = 8
+        $0.backgroundColor = UIColor(named: "Gray2")
+        $0.placeholder = "검색할 닉네임을 입력하세요"
+        $0.layer.cornerRadius = 10
+        $0.clipsToBounds = true
         $0.setLeftPadding(12)
         $0.heightAnchor.constraint(equalToConstant: 44).isActive = true
     }
@@ -79,11 +79,11 @@ final class InfoViewController: UIViewController {
         $0.addTarget(self,
                      action: #selector(searchButtonTap),
                      for: .touchUpInside)
-        $0.backgroundColor = .blue
-        $0.setTitle("검색", for: .normal)
+        $0.backgroundColor = UIColor(named: "YoungPink")
+        $0.setTitle("검색하기", for: .normal)
         $0.setTitleColor(.white, for: .normal)
-        $0.layer.cornerRadius = 8
-        $0.heightAnchor.constraint(equalToConstant: 44).isActive = true
+        $0.layer.cornerRadius = 10
+        $0.clipsToBounds = true
     }
 
     private lazy var infoLabel = UILabel().then {
@@ -91,15 +91,5 @@ final class InfoViewController: UIViewController {
         $0.textAlignment = .left
         $0.numberOfLines = 0
         $0.font = .systemFont(ofSize: 16)
-    }
-}
-
-// MARK: - Padding Extension
-
-private extension UITextField {
-    func setLeftPadding(_ amount: CGFloat) {
-        let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: amount, height: self.frame.height))
-        self.leftView = paddingView
-        self.leftViewMode = .always
     }
 }
