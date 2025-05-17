@@ -6,61 +6,41 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		3A91F5BE2DC5E38000F958BA /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 3A91F5BD2DC5E38000F958BA /* Then */; };
-		3A91F5C12DC5E39300F958BA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3A91F5C02DC5E39300F958BA /* SnapKit */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		3A7B342A2DC5DBC8006437F8 /* week04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week04.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ABB77762DD841590015A752 /* week06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week06.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3A7B343C2DC5DBCA006437F8 /* Exceptions for "week04" folder in "week04" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 3A7B34292DC5DBC8006437F8 /* week04 */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3A7B342C2DC5DBC8006437F8 /* week04 */ = {
+		3ABB77782DD841590015A752 /* week06 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				3A7B343C2DC5DBCA006437F8 /* Exceptions for "week04" folder in "week04" target */,
-			);
-			path = week04;
+			path = week06;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3A7B34272DC5DBC8006437F8 /* Frameworks */ = {
+		3ABB77732DD841590015A752 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A91F5BE2DC5E38000F958BA /* Then in Frameworks */,
-				3A91F5C12DC5E39300F958BA /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A7B34212DC5DBC8006437F8 = {
+		3ABB776D2DD841590015A752 = {
 			isa = PBXGroup;
 			children = (
-				3A7B342C2DC5DBC8006437F8 /* week04 */,
-				3A7B342B2DC5DBC8006437F8 /* Products */,
+				3ABB77782DD841590015A752 /* week06 */,
+				3ABB77772DD841590015A752 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3A7B342B2DC5DBC8006437F8 /* Products */ = {
+		3ABB77772DD841590015A752 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A7B342A2DC5DBC8006437F8 /* week04.app */,
+				3ABB77762DD841590015A752 /* week06.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,70 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3A7B34292DC5DBC8006437F8 /* week04 */ = {
+		3ABB77752DD841590015A752 /* week06 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A7B343D2DC5DBCA006437F8 /* Build configuration list for PBXNativeTarget "week04" */;
+			buildConfigurationList = 3ABB77812DD8415B0015A752 /* Build configuration list for PBXNativeTarget "week06" */;
 			buildPhases = (
-				3A7B34262DC5DBC8006437F8 /* Sources */,
-				3A7B34272DC5DBC8006437F8 /* Frameworks */,
-				3A7B34282DC5DBC8006437F8 /* Resources */,
+				3ABB77722DD841590015A752 /* Sources */,
+				3ABB77732DD841590015A752 /* Frameworks */,
+				3ABB77742DD841590015A752 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3A7B342C2DC5DBC8006437F8 /* week04 */,
+				3ABB77782DD841590015A752 /* week06 */,
 			);
-			name = week04;
+			name = week06;
 			packageProductDependencies = (
-				3A91F5BD2DC5E38000F958BA /* Then */,
-				3A91F5C02DC5E39300F958BA /* SnapKit */,
 			);
-			productName = week04;
-			productReference = 3A7B342A2DC5DBC8006437F8 /* week04.app */;
+			productName = week06;
+			productReference = 3ABB77762DD841590015A752 /* week06.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3A7B34222DC5DBC8006437F8 /* Project object */ = {
+		3ABB776E2DD841590015A752 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					3A7B34292DC5DBC8006437F8 = {
+					3ABB77752DD841590015A752 = {
 						CreatedOnToolsVersion = 16.3;
 					};
 				};
 			};
-			buildConfigurationList = 3A7B34252DC5DBC8006437F8 /* Build configuration list for PBXProject "week04" */;
+			buildConfigurationList = 3ABB77712DD841590015A752 /* Build configuration list for PBXProject "week06" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 3A7B34212DC5DBC8006437F8;
+			mainGroup = 3ABB776D2DD841590015A752;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				3A91F5BC2DC5E38000F958BA /* XCRemoteSwiftPackageReference "Then" */,
-				3A91F5BF2DC5E39300F958BA /* XCRemoteSwiftPackageReference "SnapKit" */,
-			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 3A7B342B2DC5DBC8006437F8 /* Products */;
+			productRefGroup = 3ABB77772DD841590015A752 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A7B34292DC5DBC8006437F8 /* week04 */,
+				3ABB77752DD841590015A752 /* week06 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3A7B34282DC5DBC8006437F8 /* Resources */ = {
+		3ABB77742DD841590015A752 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -141,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3A7B34262DC5DBC8006437F8 /* Sources */ = {
+		3ABB77722DD841590015A752 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -151,61 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3A7B343E2DC5DBCA006437F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 25T76RX27Y;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = week04/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-1.week04";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3A7B343F2DC5DBCA006437F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 25T76RX27Y;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = week04/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-1.week04";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		3A7B34402DC5DBCA006437F8 /* Debug */ = {
+		3ABB777F2DD8415B0015A752 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -269,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		3A7B34412DC5DBCA006437F8 /* Release */ = {
+		3ABB77802DD8415B0015A752 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -326,60 +246,84 @@
 			};
 			name = Release;
 		};
+		3ABB77822DD8415B0015A752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25T76RX27Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.week06";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ABB77832DD8415B0015A752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25T76RX27Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.week06";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A7B34252DC5DBC8006437F8 /* Build configuration list for PBXProject "week04" */ = {
+		3ABB77712DD841590015A752 /* Build configuration list for PBXProject "week06" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A7B34402DC5DBCA006437F8 /* Debug */,
-				3A7B34412DC5DBCA006437F8 /* Release */,
+				3ABB777F2DD8415B0015A752 /* Debug */,
+				3ABB77802DD8415B0015A752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A7B343D2DC5DBCA006437F8 /* Build configuration list for PBXNativeTarget "week04" */ = {
+		3ABB77812DD8415B0015A752 /* Build configuration list for PBXNativeTarget "week06" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A7B343E2DC5DBCA006437F8 /* Debug */,
-				3A7B343F2DC5DBCA006437F8 /* Release */,
+				3ABB77822DD8415B0015A752 /* Debug */,
+				3ABB77832DD8415B0015A752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		3A91F5BC2DC5E38000F958BA /* XCRemoteSwiftPackageReference "Then" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/devxoul/Then";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
-			};
-		};
-		3A91F5BF2DC5E39300F958BA /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.7.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		3A91F5BD2DC5E38000F958BA /* Then */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3A91F5BC2DC5E38000F958BA /* XCRemoteSwiftPackageReference "Then" */;
-			productName = Then;
-		};
-		3A91F5C02DC5E39300F958BA /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3A91F5BF2DC5E39300F958BA /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 3A7B34222DC5DBC8006437F8 /* Project object */;
+	rootObject = 3ABB776E2DD841590015A752 /* Project object */;
 }
